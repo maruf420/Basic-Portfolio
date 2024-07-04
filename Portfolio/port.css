@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    background-color:#102C57;
+    color: azure;
+    position: sticky;
+    top: 0px;
+}
+.h{
+    text-decoration: underline;
+    
+}
+nav{
+    margin: 0px;
+    padding: 5px;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pr{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.top{
+    display: flex;
+    margin: 0px;
+    padding: 0px; 
+    gap: 60px; 
+}
+a{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color: red;
+    font-size: 25px;
+    
+}
+.left{
+    margin: 40px;
+    padding: 50px;
+    font-size: 90px;
+}
+.left p span{
+    color: goldenrod;
+}
+.li{
+    font-size: 20px;
+    margin: 10px ;
+    padding: 10px;
+    display: flex;
+    
+}
+.fa-brands fa-linkedin{
+    font-size: 20px;
+}
+.bt{
+    margin: 10px ;
+    padding: 10px;
+    width: 150px;
+    height: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:#f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: #1679AB;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 45vw;
+    
+}
+.right{
+    margin: 20px;
+    padding: 25px;
+}
+.right img{
+width: 500px;
+height: 500px;
+}
+.right img:hover{
+    border: 8px solid white;
+    border-radius: 250px;
+}
+.ab{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: white;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.about{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 50px;
+    background-color: white;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.about img{
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 700px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    justify-content: start;
+}
+.about p{
+    margin: 20px;
+    padding: 20px;
+    align-self: center;
+}
+.about p span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.s{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: white;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.ms{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color:  white
+    ;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.lef{
+    margin: 20px;
+    padding: 20px;
+    justify-content: start; 
+}
+.righ{
+    margin: 20px;
+    padding: 20px;
+    justify-content: end;
+
+}
+.ms .righ img{
+    width: 650px;
+    height: 400px;
+    border-radius: 2px solid black;
+    border-radius:15px ;
+}
+.ms .lef span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.ms .lef .pro{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.progress{
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    gap: 10px;
+}
+.progress p{
+    font-weight: bold;
+}
+.contain{
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 10px;
+
+}
+.skill{
+    background-color: rgb(31, 59, 197);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 65%;
+}
+.javascript{
+    width: 25%;
+}
+.python{
+    width: 20%;
+}
+.w{  
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: white; 
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%; 
+}
+.work{
+    margin: 15px;
+    padding: 15px;
+    gap: 10px;
+    background-color: white;
+    text-align: center;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.work img{
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.con{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: white;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;   
+}
+.details{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input[type="text"]{
+    width: 25vw;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 10px;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+input[type="lebel"]{
+    width: 25vw;
+    height: 20vh;
+    background-color: transparent;
+    border-radius: 8px;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+input[type="button"]{
+    display: block;
+    border: none;
+    outline: none;
+    margin-left: auto;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    animation: appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+input[type="button"]:hover{
+    background-color: #1679AB;
+}
+footer{
+    background-color: #102C57;
+    color: azure;
+}
+footer p{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer span{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
